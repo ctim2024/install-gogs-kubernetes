@@ -30,3 +30,14 @@ kubectl apply -f deployment.yaml
 ```bash
 kubectl apply -f gogs-service.yaml
 ```
+
+## Ingress
+
+```bash
+kubectl apply -f ingress-gogs.yaml
+```
+Add domain gogs.com :
+
+> go C:\Windows\System32\drivers\etc
+> add line youripaddress  gogs.com
+> save and close
