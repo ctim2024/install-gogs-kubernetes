@@ -36,8 +36,10 @@ kubectl apply -f gogs-service.yaml
 ```bash
 kubectl apply -f ingress-gogs.yaml
 ```
-Add domain gogs.com :
+Add domain gogs.com to file hosts:
 
-> go C:\Windows\System32\drivers\etc
-> add line youripaddress  gogs.com
-> save and close
+1. go C:\Windows\System32\drivers\etc
+2. open hosts file with notepad 
+3. add a line with :  youripaddress  gogs.com
+4. save and close
+5. in navigator click :  http://<youripaddress>/gogs.com
