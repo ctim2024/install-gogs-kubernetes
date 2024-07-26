@@ -42,4 +42,4 @@ Add domain gogs.com to file hosts:
 2. open hosts file with notepad 
 3. add a line with :  youripaddress  gogs.com
 4. save and close
-5. in navigator click :  http://<youripaddress>/gogs.com
+5. in navigator click :  http://youripaddress/gogs.com
